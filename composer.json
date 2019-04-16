@@ -1,0 +1,28 @@
+{
+  "name": "nbcx/nb",
+  "description": "the PHP MVC framework.",
+  "type": "nb-framework",
+  "license": "Apache-2.0",
+  "homepage": "https://nb.cx",
+  "keywords": [
+    "mvc",
+    "ORM",
+    "framework",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Collin",
+      "email": "admin@nb.cx",
+      "homepage": "https://chenxiong.cx"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "psr/http-message": "^1.0",
+    "psr/container": "^1.0"
+  },
+  "autoload": {
+    "psr-4": { "Nb\\": "./" }
+  }
+}
